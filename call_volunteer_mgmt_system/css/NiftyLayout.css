@@ -1,0 +1,156 @@
+html,body{margin:0;padding:0}
+body{font: 85%/1.3 Verdana,Arial,sans-serif;text-align: center;background: #738b3d; padding-bottom:20px}
+p{margin-top:0}
+h1,h2,h3{font: normal normal 200% "Trebuchet MS",Arial,sans-serif}
+h2{font-size:160%}
+h3{font-size:120%}
+
+label {float: left;text-align: right;width: 15em;}
+
+/*     Label properties for the checkbox forms      */
+label#checkbox_title{float: left;text-align: left;width: 16em;}
+label#checkbox{float: right;text-align: left;width: 16em;}
+label#checkbox_selected{float: right;text-align: left;width: 16em;color: green;}
+
+textarea{ resize: none; }
+
+/*     Label properties for the checkbox form with no text in the labels     */
+label#checkbox_initial{float: left;text-align: right;width: 3em;}
+/*  !! THESE MUST HAVE THE SAME float AND align!!  */
+label#checkbox_outcome{float: right;text-align: left;width: 14em;}
+label#checkbox_outcome_selected{float: right;text-align: left;width: 14em;color: green;}
+label#checkbox_nolabel{float: right;text-align: left;width: 3em;}
+label#checkbox_nolabel_selected{float: right;text-align: left;width: 3em;color: green;}
+
+/*     Label properties for random selections     */
+label#suicide{float: left;text-align: left;width: 4.4em;}
+label#sexuality{float: left;text-align: left;width: 5.6em;}
+label#final{float: left;text-align: left;width: 13em;}
+label#referral{width: 20em;}
+
+#link_icons{color: #FFF}
+
+#table_id{width: 10px}
+#table_time{width: 180px}
+#table_vol_num{width: 10px}
+#table_line{width: 91px}
+
+p#error{color:red;text-align:center;}
+p#success{color:green;text-align:center;}
+
+div#header{width:100%;overflow:hidden;background: #206f8e}
+div#header h1,div#menu{width:770px;margin:0 auto;text-align:left}
+div#header h1{padding: 30px 0 10px;color: #FFF}
+a#logout{float:right;font-size:14px; color: #FFF;padding: 5px 5px 5px 5px;margin:2px;background:#738b3d;text-decoration: none}
+a:hover#logout{float:right;font-size:14px; color: #FFF;text-decoration: none}
+a:visited#logout{float:right;font-size:14px; color: #FFF;text-decoration: none}
+a:active#logout{float:right;font-size:14px; color: #FFF;text-decoration: none;font-weight:bold;}
+
+ul#nav,ul#nav li{list-style-type:none;margin:0;padding:0}
+ul#nav{float:right;font-size: 80%}
+ul#nav li{float:left;margin-left: 3px;text-align: center}
+ul#nav a{float:left;width: 95px;padding: 5px 0;background: #738b3d;text-decoration:none;color: #FFC}
+ul#nav a:hover{background: #CDFFA1;color: #006A35}
+ul#nav li.activelink a,ul#nav li.activelink a:hover{background: #FFF;color: #003}
+
+div#content{float:left;display:inline;width:750px;margin:0 0 10px 10px}
+div#content h2{margin: 10px 0;color: #007BC4}
+
+div#floatleft {float: left;/*border-style:solid;*/}
+div#scroll{float: left;height:175px;width:290px;overflow-y:scroll;/*border: 2px solid #0F384A;*/}
+div#rightcolumn {float: right}
+
+div#container{width:1015px;margin:0 auto 10px;padding:10px 20px 20px 20px;text-align:left;background:#FFF}
+div#container table{margin-left:auto; margin-right:auto;}
+div#container th{text-align:center}
+div#container h2{margin: 10px 0;color: #007BC4}
+img#icon{height:128px;width:128px;}
+p#title{font-size:14px; color: #007BC4;text-decoration: none}
+a:link#title{font-size:14px; color: #007BC4;text-decoration: none}
+a:hover#title{font-size:14px; color: #3EC400;text-decoration: none}
+a:visited#title{font-size:14px; color: #007BC4;text-decoration: none}
+a:active#title{font-size:14px; color: #3EC400;text-decoration: none;font-weight:bold;}
+.form {width: 502px;	margin: auto;background-color: #EEE;padding: 10px 10px 10px 10px}
+.form h3{font-weight:bold;}
+.form table{text-align: center;}
+.form label {float: left;text-align: right;width: 13em;}
+
+table.result-table {text-align: center; border: 2px; border-style:none;padding: 5px 5px 5px 5px}
+.result-table th {background: #AAA;}
+.result-table td{background: #ccddff;}
+.volunteer-name  {width: 160px;}
+.loginout {width: 160px;}
+
+table.menu {text-align: center;}
+.menu td{padding: 10px 10px 10px 10px}
+
+ul#intro,ul#intro li{list-style-type:none;margin:0;padding:0}
+ul#intro{width:100%;overflow:hidden;margin-bottom:20px}
+ul#intro li{float:left;width:375px;margin-right:10px;padding: 10px 0}
+li#welcome{background: #a2a7ba;color: #FFF}
+li#logout{background: #42B4AC}
+ul#intro li#more{margin-right:0;background: #7D63A9}
+ul#intro p,ul#intro h3{margin:0;padding: 0 10px}
+ul#intro h3{text-transform:uppercase;padding-bottom:3px;color: #FFF}
+
+div.date{float:left;width: 4em;padding: 5px 0;background: #F1DDC4;color:#B0001E;text-align:center;margin: 0 4px 4px 0;font-size: 80%;line-height:0.9}
+div.date span{display:block;font-size: 150%;font-weight:bold}
+
+div.comments div{background: #EEE;margin-bottom:10px}
+div.comments p{padding: 10px;margin:0}
+div.comments div.odd{background:#DAE6FE}
+
+div#side{float:right;display:inline;width: 180px;background:#a2a7ba; margin:0 10px 10px 0}
+div#side p{margin:5px 0 10px;padding: 0 10px}
+div#side div{margin: 0 0 10px;padding: 10px 0}
+
+div#footer{clear:both;width:750px;margin:0 10px 0;padding: 10px 0;
+    background: #a2a7ba;color: #FFF;text-align:center}
+div#footer p{margin:0}
+
+#backgroundPopup{  
+display:none;  
+position:fixed;  
+_position:absolute; /* hack for internet explorer 6*/  
+height:100%;  
+width:100%;  
+top:0;  
+left:0;  
+background:#000000;  
+border:1px solid #cecece;  
+z-index:1;  
+}  
+#popupContact{  
+display:none;  
+position:fixed;  
+_position:absolute; /* hack for internet explorer 6*/  
+height:384px;  
+width:408px;  
+background:#FFFFFF;  
+border:2px solid #cecece;  
+z-index:2;  
+padding:12px;  
+font-size:13px;  
+}  
+#popupContact h1{  
+text-align:left;  
+color:#6FA5FD;  
+font-size:22px;  
+font-weight:700;  
+border-bottom:1px dotted #D3D3D3;  
+padding-bottom:2px;  
+margin-bottom:20px;  
+}  
+#popupContactClose{  
+font-size:14px;  
+line-height:14px;  
+right:6px;  
+top:4px;  
+position:absolute;  
+color:#6fa5fd;  
+font-weight:700;  
+display:block;  
+}  
+#button{  
+text-align:center;   
+}  
